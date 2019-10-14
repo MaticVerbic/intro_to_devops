@@ -4,7 +4,6 @@ services:
 
 before_install:
   - docker build -t devtest -f Dockerfile.dev .
-  - docker-compose up 
 
 script:
-  - docker run -e CI=true USERNAME/docker-react npm run test
+  - docker run -e CI=true devtest npm run test
