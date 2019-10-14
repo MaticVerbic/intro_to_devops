@@ -8,7 +8,7 @@ services:
       - /app/node_modules
       - .:/app
     ports: 
-      - "8420:3000"
+      - "3000:3000"
   
   tests:
     build: 
@@ -18,5 +18,5 @@ services:
       - /app/node_modules
       - .:/app
     ports:
-      - "8420:3000"
+      - "3000:3000"
     command: ["npm", "run", "test"]      
