@@ -12,11 +12,11 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://odditymall.com/includes/content/upload/the-ultimate-bed-with-integrated-massage-chair-510.jpg"
           target="_blank"
           rel="noopener noreferrer"
         >
-          test test
+          I b hostin
         </a>
       </header>
     </div>
